@@ -1,0 +1,134 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+	background: rgb(245, 241, 241);
+	font-size: 16px;
+  }
+  
+  #app {
+	padding: 20px;
+  }
+  
+  #welcome-segment {
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+  #welcome-segment h1 {
+	font-size: 2.5rem;
+	color: #333;
+  }
+  
+  #welcome-segment p {
+	color: #555;
+  }
+  
+  #main-layout {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+  
+  #todo-section {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	width: 45%;
+  }
+  
+  #todo-section h2 {
+	font-size: 1.8rem;
+	color: #333;
+	margin-bottom: 15px;
+  }
+  
+  #todo-form {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+  }
+  
+  #todo-title-input, #todo-date-input {
+	padding: 10px;
+	font-size: 1rem;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width: 60%;
+  }
+  
+  #save-todo-button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  #save-todo-button:hover {
+	background-color: #45a049;
+  }
+  
+  #todo-list {
+	list-style: none;
+	margin-top: 20px;
+  }
+  
+  #todo-list li {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  
+  #todo-list li:hover {
+	background-color: #f1f1f1;
+  }
+  
+  #calendar-section {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	width: 45%;
+  }
+  
+  #calendar-section h2 {
+	font-size: 1.8rem;
+	color: #333;
+	margin-bottom: 15px;
+  }
+  
+  #calendar-body {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 5px;
+	margin-bottom: 15px;
+  }
+  
+  #calendar-cell {
+	background-color: #f5f5f5;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #ddd;
+  }
+  
